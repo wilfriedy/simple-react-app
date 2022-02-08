@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.small-components {
+  background-color: white;
+  margin: 10px 10px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 400px;
+}
+
+.small-components h3 {
+  text-transform: uppercase;
+  color: orangered;
+  letter-spacing: 0.4rem;
+}
+
+.small-components h4 {
+  color: powderblue;
+}
